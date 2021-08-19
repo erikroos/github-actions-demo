@@ -21,3 +21,6 @@ format:
 
 test:
 	python -m pytest -vv --cov=hello test_hello.py
+
+test-aws:
+	python -m pytest test_hello.py
